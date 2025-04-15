@@ -11,17 +11,17 @@ Outil de chiffrement/déchiffrement de fichiers en AES-256 (CBC mode)
 - Python 3.6+
 - pip
 
-Utilisation
+## Utilisation
 
-Chiffrement :
+## Chiffrement :
 
 python src/file_cryptor.py encrypt -i test.txt -o encrypted.enc -p "motdepasse"
 
-Déchiffrement :
+## Déchiffrement :
 
 python src/file_cryptor.py decrypt -i encrypted.enc -o decrypted.txt -p "motdepasse"
 
-Sécurité
+## Sécurité
 
 Utilisez des mots de passe complexes
 
@@ -29,5 +29,6 @@ Ne perdez jamais votre mot de passe
 
 Le script est à but éducatif - audit sécurité recommandé pour usage professionnel
 
-Avertissement
-⚠️ Les développeurs ne sont pas responsables des données perdues ou compromises.
+## Avertissement ⚠️
+
+Le développeur n'est pas responsables des données perdues ou compromises.
