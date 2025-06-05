@@ -14,13 +14,14 @@ Outil de chiffrement/déchiffrement de fichiers en AES-256 (CBC mode)
 ## Utilisation
 
 ## Chiffrement :
-
+````
 python src/file_cryptor.py encrypt -i test.txt -o encrypted.enc -p "motdepasse"
+````
 
 ## Déchiffrement :
-
+````
 python src/file_cryptor.py decrypt -i encrypted.enc -o decrypted.txt -p "motdepasse"
-
+````
 ## Sécurité
 
 Utilisez des mots de passe complexes
